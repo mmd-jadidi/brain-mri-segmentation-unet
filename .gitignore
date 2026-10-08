@@ -1,0 +1,24 @@
+# Dataset archives and raw data folders
+archive.zip
+*.zip
+kaggle_3m/
+lgg-mri-segmentation/
+data.csv
+
+# Large model weights (use releases or external storage)
+*.keras
+*.h5
+
+# External papers and assignment problem statements
+AI-FinalProject.pdf
+2210.13336v2.pdf
+
+# Duplicate submission folder and scratch files
+Jadidi-Mohammad-610300036-FinalProject/
+t.ipynb
+project.ipynb
+
+# Python & Jupyter cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
