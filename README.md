@@ -13,13 +13,12 @@ Identifying and delineating brain tumors from magnetic resonance imaging (MRI) i
 
 ## Repository Structure
 
-```
-├── brain_mri_segmentation.ipynb    # Complete end-to-end training and evaluation notebook
-├── test.py                         # Standalone script for sample inference & evaluation
-├── Jadidi-Mohammad-610300036.ipynb # Original executed notebook with inline MRI visualizations
-├── Jadidi-Mohammad-610300036.pdf   # Complete project documentation and analytical report
-├── Jadidi-Mohammad-610300036.html  # Exported HTML notebook report
-└── README.md                       # Project overview and documentation
+```text
+├── brain_mri_segmentation.ipynb       # Complete end-to-end training, evaluation & visualizations
+├── test.py                            # Standalone script for sample inference & evaluation
+├── brain_mri_segmentation_report.pdf  # Complete project documentation and analytical report
+├── brain_mri_segmentation_report.html # Exported HTML notebook report
+└── README.md                          # Project overview and documentation
 ```
 
 ## Dataset
@@ -64,5 +63,5 @@ pip install tensorflow opencv-python numpy matplotlib scikit-learn scikit-image
 ## Documentation & Report
 
 For in-depth analysis, loss curves, ablation studies, and qualitative results, see the attached documentation:
-- [`Jadidi-Mohammad-610300036.pdf`](Jadidi-Mohammad-610300036.pdf)
-- [`Jadidi-Mohammad-610300036.html`](Jadidi-Mohammad-610300036.html)
+- [`brain_mri_segmentation_report.pdf`](brain_mri_segmentation_report.pdf)
+- [`brain_mri_segmentation_report.html`](brain_mri_segmentation_report.html)
